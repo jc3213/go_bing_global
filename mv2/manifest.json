@@ -1,0 +1,26 @@
+{
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.bing.com/*"
+    ],
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "jc3213@go_bing_global"
+        }
+    },
+    "developer": {
+        "name": "jc3213",
+        "url": "https://github.com/jc3213/go_bing_global"
+    }
+}
